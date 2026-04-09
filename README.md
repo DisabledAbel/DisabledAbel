@@ -27,7 +27,7 @@ $ motto
 
 ---
 
-## 👑 `things_i_like.sys`
+## 👑 `things_i_like
 
 - 💻 Tech, coding, and building systems that actually do useful things
 - ✨ Creative projects where design and logic work together
@@ -89,12 +89,6 @@ If you like clean contributions with personality, we'll probably work great toge
 </p>
 
 ---
-
-## 🛰️ `repos_i_worked_on_last_week.log`
-
-<!-- weekly-repos:start -->
-- _Updating automatically..._
-<!-- weekly-repos:end -->
 
 ## 🌸 `currently_building()`
 
