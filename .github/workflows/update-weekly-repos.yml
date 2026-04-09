@@ -87,31 +87,19 @@ jobs:
             const readmePath = 'README.md';
             const readme = fs.readFileSync(readmePath, 'utf8');
 
+            if (!readme.includes(startMarker) || !readme.includes(endMarker)) {
+              core.setFailed(`README is missing ${startMarker}/${endMarker} markers.`);
+              return;
+            }
+
             const body = repos.length
               ? repos.join('\n')
               : '- No public repo activity in the last 7 days (yet ✨)';
 
-            let updated;
-            if (readme.includes(startMarker) && readme.includes(endMarker)) {
-              updated = readme.replace(
-                new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`, 'm'),
-                `${startMarker}\n${body}\n${endMarker}`
-              );
-            } else {
-              const section = [
-                '',
-                '---',
-                '',
-                '## 🛰️ `repos_i_worked_on_last_week.log`',
-                '',
-                startMarker,
-                body,
-                endMarker,
-                ''
-              ].join('\n');
-              updated = `${readme.trimEnd()}\n${section}\n`;
-              core.info('README markers were missing, so a new weekly repo section was appended.');
-            }
+            const updated = readme.replace(
+              new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`, 'm'),
+              `${startMarker}\n${body}\n${endMarker}`
+            );
 
             fs.writeFileSync(readmePath, updated);
             core.info(`Updated weekly repo list with ${repos.length} repositories.`);
