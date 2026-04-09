@@ -27,7 +27,7 @@ $ motto
 
 ---
 
-## 👑 `things_i_like.sys`
+## 👑 `things_i_like
 
 - 💻 Tech, coding, and building systems that actually do useful things
 - ✨ Creative projects where design and logic work together
