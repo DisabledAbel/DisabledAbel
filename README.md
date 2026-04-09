@@ -77,16 +77,7 @@ Pull requests are a big part of how I grow:
 - I value maintainers' time, so I try to keep changes organized and intentional
 - I'm always down to collaborate on improvements and polish
 
-If you like clean contributions with personality, we'll probably work great together. 👑
-
----
-
-## 📊 `github_stats.live`
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=DisabledAbel&show_icons=true&theme=radical&hide_border=true&rank_icon=github" alt="Abel's GitHub stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DisabledAbel&layout=compact&theme=radical&hide_border=true" alt="Top languages"/>
-</p>
+If you like clean contributions with personality, we'll probably work great together.
 
 ---
 
