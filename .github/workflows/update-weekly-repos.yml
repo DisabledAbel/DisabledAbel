@@ -1,0 +1,132 @@
+name: Update Weekly Worked Repos
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update weekly repositories section
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: DisabledAbel
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from datetime import datetime, timedelta, timezone
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+
+          username = os.environ.get("PROFILE_USERNAME") or os.environ.get("GITHUB_REPOSITORY_OWNER")
+          token = os.environ["GITHUB_TOKEN"]
+
+          to_dt = datetime.now(timezone.utc)
+          from_dt = to_dt - timedelta(days=7)
+
+          query = """
+          query($login: String!, $from: DateTime!, $to: DateTime!) {
+            user(login: $login) {
+              contributionsCollection(from: $from, to: $to) {
+                commitContributionsByRepository { repository { nameWithOwner url } }
+                pullRequestContributionsByRepository { repository { nameWithOwner url } }
+                issueContributionsByRepository { repository { nameWithOwner url } }
+                pullRequestReviewContributionsByRepository { repository { nameWithOwner url } }
+                repositoryContributions(first: 100) { nodes { repository { nameWithOwner url } } }
+              }
+            }
+          }
+          """
+
+          payload = {
+            "query": query,
+            "variables": {
+              "login": username,
+              "from": from_dt.isoformat(),
+              "to": to_dt.isoformat(),
+            },
+          }
+
+          req = Request(
+            "https://api.github.com/graphql",
+            data=json.dumps(payload).encode("utf-8"),
+            headers={
+              "Authorization": f"Bearer {token}",
+              "Content-Type": "application/json",
+              "User-Agent": "weekly-repo-updater",
+            },
+            method="POST",
+          )
+
+          with urlopen(req) as resp:
+            result = json.loads(resp.read().decode("utf-8"))
+
+          if result.get("errors"):
+            raise SystemExit(f"GraphQL error: {result['errors']}")
+
+          collection = (((result.get("data") or {}).get("user") or {}).get("contributionsCollection"))
+          if not collection:
+            raise SystemExit(f"No contribution data returned for {username}")
+
+          repos = {}
+
+          def add_repo(repo):
+            if repo and repo.get("nameWithOwner") and repo.get("url"):
+              repos[repo["nameWithOwner"]] = repo["url"]
+
+          for item in collection.get("commitContributionsByRepository", []):
+            add_repo(item.get("repository"))
+          for item in collection.get("pullRequestContributionsByRepository", []):
+            add_repo(item.get("repository"))
+          for item in collection.get("issueContributionsByRepository", []):
+            add_repo(item.get("repository"))
+          for item in collection.get("pullRequestReviewContributionsByRepository", []):
+            add_repo(item.get("repository"))
+          for node in (collection.get("repositoryContributions", {}).get("nodes") or []):
+            add_repo(node.get("repository"))
+
+          lines = [f"- [`{name}`]({url})" for name, url in sorted(repos.items())]
+          if not lines:
+            lines = ["- No public repo activity in the last 7 days (yet ✨)"]
+
+          start_marker = "<!-- weekly-repos:start -->"
+          end_marker = "<!-- weekly-repos:end -->"
+          readme_path = Path("README.md")
+          readme = readme_path.read_text(encoding="utf-8") if readme_path.exists() else ""
+
+          body = "\n".join(lines)
+          if start_marker in readme and end_marker in readme:
+            prefix, rest = readme.split(start_marker, 1)
+            _, suffix = rest.split(end_marker, 1)
+            updated = f"{prefix}{start_marker}\n{body}\n{end_marker}{suffix}"
+          else:
+            section = (
+              "\n---\n\n"
+              "## 🛰️ `repos_i_worked_on_last_week.log`\n\n"
+              f"{start_marker}\n{body}\n{end_marker}\n"
+            )
+            if readme.strip():
+              updated = readme.rstrip() + "\n" + section
+            else:
+              updated = "# Weekly Repo Activity\n" + section
+
+          readme_path.write_text(updated, encoding="utf-8")
+          print(f"Updated weekly repo list with {len(repos)} repositories.")
+          PY
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update weekly worked repos"
+          file_pattern: README.md
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com
