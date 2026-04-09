@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Abel%20%E2%80%A2%20Princess%20Developer&fontAlign=50&fontAlignY=40&color=gradient&customColorList=14,20,24,27,30&fontColor=ffffff&desc=Teen%20Developer%20%7C%20Any%20Pronouns%20%7C%20Build-by-Doing%20Energy&descAlign=50&descAlignY=62" alt="Banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Abel%20%E2%80%A2%20Princess%20Hacker&fontAlign=50&fontAlignY=40&color=gradient&customColorList=14,20,24,27,30&fontColor=ffffff&desc=Teen%20Developer%20%7C%20Any%20Pronouns%20%7C%20Build-by-Doing%20Energy&descAlign=50&descAlignY=62" alt="Banner"/>
 </p>
 
 # 👑✨ Abel's Profile Card // README.md
@@ -22,12 +22,12 @@ $ whoami
 Abel // teen dev // creative systems builder
 
 $ motto
-"Cute outside, developer brain inside." 👑💻
+"Cute outside, hacker brain inside." 👑💻
 ```
 
 ---
 
-## 👑 `things_i_like.sys`
+## 👑 `things_i_like
 
 - 💻 Tech, coding, and building systems that actually do useful things
 - ✨ Creative projects where design and logic work together
@@ -77,24 +77,9 @@ Pull requests are a big part of how I grow:
 - I value maintainers' time, so I try to keep changes organized and intentional
 - I'm always down to collaborate on improvements and polish
 
-If you like clean contributions with personality, we'll probably work great together. 👑
+If you like clean contributions with personality, we'll probably work great together.
 
 ---
-
-## 📊 `github_stats.live`
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=DisabledAbel&show_icons=true&theme=radical&hide_border=true&rank_icon=github" alt="Abel's GitHub stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DisabledAbel&layout=compact&theme=radical&hide_border=true" alt="Top languages"/>
-</p>
-
----
-
-## 🛰️ `repos_i_worked_on_last_week.log`
-
-<!-- weekly-repos:start -->
-- _Updating automatically..._
-<!-- weekly-repos:end -->
 
 ## 🌸 `currently_building()`
 
