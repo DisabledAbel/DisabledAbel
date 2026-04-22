@@ -87,4 +87,7 @@ Learning, shipping, contributing, and getting better one PR at a time.
 Always open to cool collaborations that mix **creativity + code**. 🎀⚡
 
 <!-- weekly-repos:start -->
+- [`DisabledAbel/DisabledAbel`](https://github.com/DisabledAbel/DisabledAbel)
+- [`DisabledAbel/gdrive-mp4-extractor`](https://github.com/DisabledAbel/gdrive-mp4-extractor)
+- [`DisabledAbel/GitHub-repo-remover`](https://github.com/DisabledAbel/GitHub-repo-remover)
 <!-- weekly-repos:end -->
