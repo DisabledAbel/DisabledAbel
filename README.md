@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Abel%20%E2%80%A2%20Princess%20Hacker&fontAlign=50&fontAlignY=40&color=gradient&customColorList=14,20,24,27,30&fontColor=ffffff&desc=Teen%20Developer%20%7C%20Any%20Pronouns%20%7C%20Build-by-Doing%20Energy&descAlign=50&descAlignY=62" alt="Banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Abel%20%E2%80%A2%20Princess%20Developer&fontAlign=50&fontAlignY=40&color=gradient&customColorList=14,20,24,27,30&fontColor=ffffff&desc=Teen%20Developer%20%7C%20Any%20Pronouns%20%7C%20Build-by-Doing%20Energy&descAlign=50&descAlignY=62" alt="Banner"/>
 </p>
 
 # 👑✨ Abel's Profile Card // README.md
