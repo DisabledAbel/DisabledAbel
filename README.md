@@ -82,10 +82,6 @@ If you like clean contributions with personality, we'll probably work great toge
 ---
 
 ## 🌸 `currently_building()`
-
-Learning, shipping, contributing, and getting better one PR at a time.
-Always open to cool collaborations that mix **creativity + code**. 🎀⚡
-
 <!-- weekly-repos:start -->
 - [`DisabledAbel/DisabledAbel`](https://github.com/DisabledAbel/DisabledAbel)
 - [`DisabledAbel/gdrive-mp4-extractor`](https://github.com/DisabledAbel/gdrive-mp4-extractor)
