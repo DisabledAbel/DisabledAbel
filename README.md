@@ -85,3 +85,6 @@ If you like clean contributions with personality, we'll probably work great toge
 
 Learning, shipping, contributing, and getting better one PR at a time.
 Always open to cool collaborations that mix **creativity + code**. 🎀⚡
+
+<!-- weekly-repos:start -->
+<!-- weekly-repos:end -->
