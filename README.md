@@ -86,4 +86,6 @@ If you like clean contributions with personality, we'll probably work great toge
 - [`DisabledAbel/DisabledAbel`](https://github.com/DisabledAbel/DisabledAbel)
 - [`DisabledAbel/gdrive-mp4-extractor`](https://github.com/DisabledAbel/gdrive-mp4-extractor)
 - [`DisabledAbel/GitHub-repo-remover`](https://github.com/DisabledAbel/GitHub-repo-remover)
+- [`DisabledAbel/libebml_ng`](https://github.com/DisabledAbel/libebml_ng)
+- [`shersonb/libebml_ng`](https://github.com/shersonb/libebml_ng)
 <!-- weekly-repos:end -->
