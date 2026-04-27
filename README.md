@@ -85,7 +85,6 @@ If you like clean contributions with personality, we'll probably work great toge
 <!-- weekly-repos:start -->
 - [`anthropics/claude-code`](https://github.com/anthropics/claude-code)
 - [`DisabledAbel/DisabledAbel`](https://github.com/DisabledAbel/DisabledAbel)
-- [`DisabledAbel/gdrive-mp4-extractor`](https://github.com/DisabledAbel/gdrive-mp4-extractor)
 - [`DisabledAbel/GitHub-repo-remover`](https://github.com/DisabledAbel/GitHub-repo-remover)
 - [`DisabledAbel/public-apis`](https://github.com/DisabledAbel/public-apis)
 - [`DisabledAbel/tvapp2`](https://github.com/DisabledAbel/tvapp2)
