@@ -89,6 +89,5 @@ If you like clean contributions with personality, we'll probably work great toge
 - [`DisabledAbel/public-apis`](https://github.com/DisabledAbel/public-apis)
 - [`DisabledAbel/tvapp2`](https://github.com/DisabledAbel/tvapp2)
 - [`marcelscruz/public-apis`](https://github.com/marcelscruz/public-apis)
-- [`shersonb/libebml_ng`](https://github.com/shersonb/libebml_ng)
 - [`TheBinaryNinja/tvapp2`](https://github.com/TheBinaryNinja/tvapp2)
 <!-- weekly-repos:end -->
