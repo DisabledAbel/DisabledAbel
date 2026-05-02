@@ -85,8 +85,6 @@ If you like clean contributions with personality, we'll probably work great toge
 <!-- weekly-repos:start -->
 - [`DisabledAbel/DisabledAbel`](https://github.com/DisabledAbel/DisabledAbel)
 - [`DisabledAbel/movie-poster-scraper`](https://github.com/DisabledAbel/movie-poster-scraper)
-- [`DisabledAbel/public-apis`](https://github.com/DisabledAbel/public-apis)
 - [`DisabledAbel/tvapp2`](https://github.com/DisabledAbel/tvapp2)
-- [`marcelscruz/public-apis`](https://github.com/marcelscruz/public-apis)
-- [`TheBinaryNinja/tvapp2`](https://github.com/TheBinaryNinja/tvapp2)
+- [`openai/codex`](https://github.com/openai/codex)
 <!-- weekly-repos:end -->
