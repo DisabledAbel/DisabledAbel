@@ -84,6 +84,7 @@ If you like clean contributions with personality, we'll probably work great toge
 ## 🌸 `currently_building()`
 <!-- weekly-repos:start -->
 - [`DisabledAbel/DisabledAbel`](https://github.com/DisabledAbel/DisabledAbel)
+- [`DisabledAbel/gdrive-mp4-extractor`](https://github.com/DisabledAbel/gdrive-mp4-extractor)
 - [`DisabledAbel/movie-poster-scraper`](https://github.com/DisabledAbel/movie-poster-scraper)
 - [`DisabledAbel/tvapp2`](https://github.com/DisabledAbel/tvapp2)
 - [`openai/codex`](https://github.com/openai/codex)
