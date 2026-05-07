@@ -38,7 +38,7 @@ $ motto
 
 ## 🛠 tools_i_use
 - CodeX by OpenAI
-- Devin AI
+- OpenHands IDE
 - CodeRabbit
 - Pull by Wei He
 ## 💬 `collaboration_preferences.md`
