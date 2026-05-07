@@ -36,6 +36,10 @@ $ motto
 
 ---
 
+## 🛠 tools_i_use
+— CodeX by OpenAI
+- Devin AI
+- CodeRabbit
 ## 💬 `collaboration_preferences.md`
 
 ### `things_that_help_me()`
