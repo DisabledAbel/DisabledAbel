@@ -88,8 +88,8 @@ If you like clean contributions with personality, we'll probably work great toge
 
 ## 🌸 `currently_building()`
 <!-- weekly-repos:start -->
-- [`DisabledAbel/Cronjob-worker`](https://github.com/DisabledAbel/Cronjob-worker)
 - [`DisabledAbel/DisabledAbel`](https://github.com/DisabledAbel/DisabledAbel)
+- [`DisabledAbel/GitHub-repo-remover`](https://github.com/DisabledAbel/GitHub-repo-remover)
 - [`DisabledAbel/Googledrive-mp4-extractor`](https://github.com/DisabledAbel/Googledrive-mp4-extractor)
 - [`DisabledAbel/libebml_ng`](https://github.com/DisabledAbel/libebml_ng)
 - [`DisabledAbel/movie-poster-scraper`](https://github.com/DisabledAbel/movie-poster-scraper)
