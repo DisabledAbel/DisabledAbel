@@ -91,12 +91,11 @@ If you like clean contributions with personality, we'll probably work great toge
 - [`DisabledAbel/DisabledAbel`](https://github.com/DisabledAbel/DisabledAbel)
 - [`DisabledAbel/GitHub-repo-remover`](https://github.com/DisabledAbel/GitHub-repo-remover)
 - [`DisabledAbel/Googledrive-mp4-extractor`](https://github.com/DisabledAbel/Googledrive-mp4-extractor)
-- [`DisabledAbel/libebml_ng`](https://github.com/DisabledAbel/libebml_ng)
 - [`DisabledAbel/movie-poster-scraper`](https://github.com/DisabledAbel/movie-poster-scraper)
 - [`DisabledAbel/OpenHands`](https://github.com/DisabledAbel/OpenHands)
 - [`DisabledAbel/tvapp2`](https://github.com/DisabledAbel/tvapp2)
+- [`DisabledAbel/YouTube-RSS-Feed-Scanner`](https://github.com/DisabledAbel/YouTube-RSS-Feed-Scanner)
 - [`marcelscruz/public-apis`](https://github.com/marcelscruz/public-apis)
 - [`OpenHands/OpenHands`](https://github.com/OpenHands/OpenHands)
-- [`shersonb/libebml_ng`](https://github.com/shersonb/libebml_ng)
 - [`TheBinaryNinja/tvapp2`](https://github.com/TheBinaryNinja/tvapp2)
 <!-- weekly-repos:end -->
