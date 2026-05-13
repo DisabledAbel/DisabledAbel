@@ -95,7 +95,6 @@ If you like clean contributions with personality, we'll probably work great toge
 - [`DisabledAbel/OpenHands`](https://github.com/DisabledAbel/OpenHands)
 - [`DisabledAbel/tvapp2`](https://github.com/DisabledAbel/tvapp2)
 - [`DisabledAbel/YouTube-RSS-Feed-Scanner`](https://github.com/DisabledAbel/YouTube-RSS-Feed-Scanner)
-- [`marcelscruz/public-apis`](https://github.com/marcelscruz/public-apis)
 - [`OpenHands/OpenHands`](https://github.com/OpenHands/OpenHands)
 - [`TheBinaryNinja/tvapp2`](https://github.com/TheBinaryNinja/tvapp2)
 <!-- weekly-repos:end -->
