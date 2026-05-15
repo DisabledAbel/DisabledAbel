@@ -92,6 +92,7 @@ If you like clean contributions with personality, we'll probably work great toge
 - [`DisabledAbel/GitHub-repo-remover`](https://github.com/DisabledAbel/GitHub-repo-remover)
 - [`DisabledAbel/Googledrive-mp4-extractor`](https://github.com/DisabledAbel/Googledrive-mp4-extractor)
 - [`DisabledAbel/movie-poster-scraper`](https://github.com/DisabledAbel/movie-poster-scraper)
+- [`DisabledAbel/mp3-to-wav-convert`](https://github.com/DisabledAbel/mp3-to-wav-convert)
 - [`DisabledAbel/OpenHands`](https://github.com/DisabledAbel/OpenHands)
 - [`DisabledAbel/tvapp2`](https://github.com/DisabledAbel/tvapp2)
 - [`DisabledAbel/YouTube-RSS-Feed-Scanner`](https://github.com/DisabledAbel/YouTube-RSS-Feed-Scanner)
