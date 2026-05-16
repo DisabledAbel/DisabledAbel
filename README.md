@@ -94,6 +94,7 @@ If you like clean contributions with personality, we'll probably work great toge
 - [`DisabledAbel/movie-poster-scraper`](https://github.com/DisabledAbel/movie-poster-scraper)
 - [`DisabledAbel/mp3-to-wav-convert`](https://github.com/DisabledAbel/mp3-to-wav-convert)
 - [`DisabledAbel/OpenHands`](https://github.com/DisabledAbel/OpenHands)
+- [`DisabledAbel/oregon-lightning-ics`](https://github.com/DisabledAbel/oregon-lightning-ics)
 - [`DisabledAbel/tvapp2`](https://github.com/DisabledAbel/tvapp2)
 - [`DisabledAbel/YouTube-RSS-Feed-Scanner`](https://github.com/DisabledAbel/YouTube-RSS-Feed-Scanner)
 - [`OpenHands/OpenHands`](https://github.com/OpenHands/OpenHands)
