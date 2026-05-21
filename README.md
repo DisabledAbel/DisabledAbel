@@ -84,6 +84,19 @@ Pull requests are a big part of how I grow:
 
 If you like clean contributions with personality, we'll probably work great together.
 
+
+---
+
+## ♿ `accessibility_and_disability.md`
+
+I live with **cerebral palsy**, and it is an important part of who I am as a developer and collaborator.
+
+- I may use workflows and tooling choices that support comfort, speed, and consistency
+- Accessibility is not a side topic for me — it directly shapes how I think about UX and engineering
+- I value patient, respectful collaboration and clear communication in technical spaces
+
+For me, building great software also means building software that works for people with different bodies, needs, and ways of interacting with technology.
+
 ---
 
 ## 🌸 `currently_building()`
