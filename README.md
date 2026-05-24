@@ -104,6 +104,7 @@ For me, building great software also means building software that works for peop
 - [`DisabledAbel/DisabledAbel`](https://github.com/DisabledAbel/DisabledAbel)
 - [`DisabledAbel/movie-poster-scraper`](https://github.com/DisabledAbel/movie-poster-scraper)
 - [`DisabledAbel/OpenHands`](https://github.com/DisabledAbel/OpenHands)
+- [`DisabledAbel/Typography-to-English`](https://github.com/DisabledAbel/Typography-to-English)
 - [`OpenHands/OpenHands`](https://github.com/OpenHands/OpenHands)
 - [`wei/pull`](https://github.com/wei/pull)
 <!-- weekly-repos:end -->
