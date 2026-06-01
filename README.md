@@ -103,6 +103,5 @@ For me, building great software also means building software that works for peop
 <!-- weekly-repos:start -->
 - [`DisabledAbel/DisabledAbel`](https://github.com/DisabledAbel/DisabledAbel)
 - [`DisabledAbel/MakeICS`](https://github.com/DisabledAbel/MakeICS)
-- [`DisabledAbel/Text-to-Bash-Converter`](https://github.com/DisabledAbel/Text-to-Bash-Converter)
 - [`DisabledAbel/Typography-front-maker`](https://github.com/DisabledAbel/Typography-front-maker)
 <!-- weekly-repos:end -->
