@@ -38,9 +38,8 @@ $ motto
 
 ## 🛠 tools_i_use
 - CodeX by OpenAI
-- OpenHands IDE
+- Jules by Google 
 - CodeRabbit
-- Pull by Wei He
 ## 💬 `collaboration_preferences.md`
 
 ### `things_that_help_me()`
