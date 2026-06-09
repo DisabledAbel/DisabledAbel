@@ -100,7 +100,10 @@ For me, building great software also means building software that works for peop
 
 ## 🌸 `currently_building()`
 <!-- weekly-repos:start -->
+- [`avadhesh18/at4k`](https://github.com/avadhesh18/at4k)
 - [`DisabledAbel/DisabledAbel`](https://github.com/DisabledAbel/DisabledAbel)
 - [`DisabledAbel/MakeICS`](https://github.com/DisabledAbel/MakeICS)
 - [`DisabledAbel/movie-poster-scraper`](https://github.com/DisabledAbel/movie-poster-scraper)
+- [`DisabledAbel/tvapp2`](https://github.com/DisabledAbel/tvapp2)
+- [`DisabledAbel/YouTube-RSS-Feed-Scanner`](https://github.com/DisabledAbel/YouTube-RSS-Feed-Scanner)
 <!-- weekly-repos:end -->
