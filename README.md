@@ -40,6 +40,7 @@ $ motto
 - CodeX by OpenAI
 - Jules by Google 
 - CodeRabbit
+- Vercel 
 ## 💬 `collaboration_preferences.md`
 
 ### `things_that_help_me()`
