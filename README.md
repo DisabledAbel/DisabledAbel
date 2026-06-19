@@ -38,9 +38,11 @@ $ motto
 
 ## 🛠 tools_i_use
 - CodeX by OpenAI
-- Jules by Google 
+- Jules by Google
+- OpenHands 
 - CodeRabbit
-- Vercel 
+- Vercel
+
 ## 💬 `collaboration_preferences.md`
 
 ### `things_that_help_me()`
