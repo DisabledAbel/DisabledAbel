@@ -99,13 +99,6 @@ I live with **cerebral palsy**, and it is an important part of who I am as a dev
 
 For me, building great software also means building software that works for people with different bodies, needs, and ways of interacting with technology.
 
----
-
-## 🤝 `contributor_on`
-<!-- merged-repos:start -->
-- [`OpenHands/OpenHands`](https://github.com/OpenHands/OpenHands)
-- [`marcelscruz/public-apis`](https://github.com/marcelscruz/public-apis)
-<!-- merged-repos:end -->
 
 ---
 
