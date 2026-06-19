@@ -100,15 +100,10 @@ For me, building great software also means building software that works for peop
 ---
 
 ## 🤝 `contributor_on`
-
+<!-- merged-repos:start -->
 - [`OpenHands/OpenHands`](https://github.com/OpenHands/OpenHands)
-- [`TheBinaryNinja/tvapp2`](https://github.com/TheBinaryNinja/tvapp2)
 - [`marcelscruz/public-apis`](https://github.com/marcelscruz/public-apis)
-- [`shersonb/libebml_ng`](https://github.com/shersonb/libebml_ng)
-- [`theNetworkChuck/NetworkChuck`](https://github.com/theNetworkChuck/NetworkChuck)
-- [`public-apis/public-apis`](https://github.com/public-apis/public-apis)
-- [`github/docs`](https://github.com/github/docs)
-- [`PrabashSapkota/daddylivehd`](https://github.com/PrabashSapkota/daddylivehd)
+<!-- merged-repos:end -->
 
 ---
 
