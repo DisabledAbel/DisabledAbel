@@ -109,4 +109,5 @@ For me, building great software also means building software that works for peop
 - [`DisabledAbel/Googledrive-mp4-extractor`](https://github.com/DisabledAbel/Googledrive-mp4-extractor)
 - [`DisabledAbel/MakeICS`](https://github.com/DisabledAbel/MakeICS)
 - [`DisabledAbel/movie-poster-scraper`](https://github.com/DisabledAbel/movie-poster-scraper)
+- [`DisabledAbel/OpenHands`](https://github.com/DisabledAbel/OpenHands)
 <!-- weekly-repos:end -->
