@@ -104,6 +104,7 @@ For me, building great software also means building software that works for peop
 
 ## 🌸 `currently_building()`
 <!-- weekly-repos:start -->
+- [`DisabledAbel/adaptive-remote-tv`](https://github.com/DisabledAbel/adaptive-remote-tv)
 - [`DisabledAbel/DisabledAbel`](https://github.com/DisabledAbel/DisabledAbel)
 - [`DisabledAbel/GitHub-repo-remover`](https://github.com/DisabledAbel/GitHub-repo-remover)
 - [`DisabledAbel/Googledrive-mp4-extractor`](https://github.com/DisabledAbel/Googledrive-mp4-extractor)
