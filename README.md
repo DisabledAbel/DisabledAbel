@@ -106,11 +106,8 @@ For me, building great software also means building software that works for peop
 <!-- weekly-repos:start -->
 - [`DisabledAbel/DisabledAbel`](https://github.com/DisabledAbel/DisabledAbel)
 - [`DisabledAbel/MakeICS`](https://github.com/DisabledAbel/MakeICS)
-- [`DisabledAbel/movie-poster-scraper`](https://github.com/DisabledAbel/movie-poster-scraper)
-- [`DisabledAbel/OpenHands`](https://github.com/DisabledAbel/OpenHands)
 - [`DisabledAbel/t3code`](https://github.com/DisabledAbel/t3code)
 - [`DisabledAbel/YouTube-RSS-Feed-Scanner`](https://github.com/DisabledAbel/YouTube-RSS-Feed-Scanner)
 - [`nikhilraj070/MakeICS`](https://github.com/nikhilraj070/MakeICS)
-- [`OpenHands/OpenHands`](https://github.com/OpenHands/OpenHands)
 - [`pingdotgg/t3code`](https://github.com/pingdotgg/t3code)
 <!-- weekly-repos:end -->
