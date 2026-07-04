@@ -37,7 +37,6 @@ $ motto
 ---
 
 ## 🛠 tools_i_use
-- CodeX by OpenAI
 - Jules by Google
 - OpenHands 
 - CodeRabbit
