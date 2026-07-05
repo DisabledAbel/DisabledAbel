@@ -97,13 +97,3 @@ I live with **cerebral palsy**, and it is an important part of who I am as a dev
 - I value patient, respectful collaboration and clear communication in technical spaces
 
 For me, building great software also means building software that works for people with different bodies, needs, and ways of interacting with technology.
-
-
----
-
-## 🌸 `currently_building()`
-<!-- weekly-repos:start -->
-- [`DisabledAbel/DisabledAbel`](https://github.com/DisabledAbel/DisabledAbel)
-- [`DisabledAbel/MakeICS`](https://github.com/DisabledAbel/MakeICS)
-- [`DisabledAbel/Typography-front-maker`](https://github.com/DisabledAbel/Typography-front-maker)
-<!-- weekly-repos:end -->
