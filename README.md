@@ -37,8 +37,7 @@ $ motto
 ---
 
 ## 🛠 tools_i_use
-- Jules by Google
-- OpenHands 
+- ChatGPT / CodeX
 - CodeRabbit
 - Vercel
 
