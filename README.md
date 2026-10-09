@@ -1,3 +1,12 @@
+<!-- PROFILE:START -->
+<p align="center">
+  <a href="https://github.com/DisabledAbel">
+    <img src="https://avatars.githubusercontent.com/u/196466003?v=4" width="160" height="160" alt="DisabledAbel's GitHub profile picture"/>
+  </a>
+</p>
+<h2 align="center">@DisabledAbel</h2>
+<!-- PROFILE:END -->
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Abel%20%E2%80%A2%20Princess%20Developer&fontAlign=50&fontAlignY=40&color=gradient&customColorList=14,20,24,27,30&fontColor=ffffff&desc=Teen%20Developer%20%7C%20Any%20Pronouns%20%7C%20Build-by-Doing%20Energy&descAlign=50&descAlignY=62" alt="Banner"/>
 </p>
@@ -5,6 +14,16 @@
 # 👑✨ Abel's Profile Card // README.md
 
 > Soft aesthetic, sharp logic. I like my workflows cute and my code clean. 🎀💻
+
+---
+
+## 📊 Contribution stats
+
+<!-- CONTRIBUTION-STATS:START -->
+[View my contribution activity](https://github.com/DisabledAbel?tab=overview)
+
+My public contribution counts will appear after the first workflow run. Checked every two hours and updated only when changes are found.
+<!-- CONTRIBUTION-STATS:END -->
 
 ---
 

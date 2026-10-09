@@ -1,0 +1,45 @@
+name: Update profile README
+
+on:
+  schedule:
+    - cron: '17 */2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - scripts/update_profile.py
+      - .github/workflows/update-profile.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the latest default branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Refresh profile picture and contribution stats
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+        run: python3 scripts/update_profile.py
+      - name: Commit only when profile data changes
+        run: |
+          git add README.md assets/profile-avatar.png
+          if git diff --cached --quiet; then
+            echo "Profile picture and stats are unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh profile picture and contribution stats"
+          git push origin HEAD:main
