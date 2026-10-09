@@ -1,7 +1,7 @@
 <!-- PROFILE:START -->
 <p align="center">
   <a href="https://github.com/DisabledAbel">
-    <img src="https://avatars.githubusercontent.com/u/196466003?v=4" width="160" height="160" alt="DisabledAbel's GitHub profile picture"/>
+    <img src="assets/profile-avatar.png?v=4e1a5a6b4c6f0822" width="160" height="160" alt="DisabledAbel's GitHub profile picture"/>
   </a>
 </p>
 <h2 align="center">@DisabledAbel</h2>
@@ -20,9 +20,17 @@
 ## 📊 Contribution stats
 
 <!-- CONTRIBUTION-STATS:START -->
+| Contribution | Count |
+| :--- | ---: |
+| Total contributions | 2,985 |
+| Commits | 2,531 |
+| Pull requests | 407 |
+| Issues | 18 |
+| Code reviews | 3 |
+
 [View my contribution activity](https://github.com/DisabledAbel?tab=overview)
 
-My public contribution counts will appear after the first workflow run. Checked every two hours and updated only when changes are found.
+Public activity over the past 12 months. Checked every two hours; updated when the photo or counts change.
 <!-- CONTRIBUTION-STATS:END -->
 
 ---
