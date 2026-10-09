@@ -8,7 +8,7 @@ on:
     branches: [main]
     paths:
       - README.md
-      - scripts/update_profile.py
+      - scripts/*.py
       - .github/workflows/update-profile.yml
 
 permissions:
@@ -34,7 +34,7 @@ jobs:
         run: python3 scripts/update_profile.py
       - name: Commit only when profile data changes
         run: |
-          git add README.md assets/profile-avatar.png
+          git add README.md assets/profile-avatar.png assets/profile-metrics.svg
           if git diff --cached --quiet; then
             echo "Profile picture and stats are unchanged."
             exit 0
