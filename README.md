@@ -88,7 +88,7 @@ $ review-feedback --preferred
 
 ## 💻✨ `pull_requests_and_contributions.pr`
 
-See [my pull requests to other repositories](EXTERNAL_PRS.md), refreshed every 12 hours.
+See [my open pull requests to other repositories](EXTERNAL_PRS.md), refreshed every 12 hours.
 
 Pull requests are a big part of how I grow:
 
