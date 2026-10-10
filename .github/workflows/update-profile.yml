@@ -39,7 +39,7 @@ jobs:
             echo "Profile picture and stats are unchanged."
             exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Abel"
+          git config user.email "196466003+DisabledAbel@users.noreply.github.com"
           git commit -m "chore: refresh profile picture and contribution stats"
           git push origin HEAD:main
