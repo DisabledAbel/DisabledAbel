@@ -1,4 +1,4 @@
-"""Generate EXTERNAL_PRS.md from all public PRs authored by the profile user."""
+"""Generate EXTERNAL_PRS.md from open public PRs authored by the profile user."""
 
 import html
 import json
@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 QUERY = """
 query($login: String!, $after: String) {
   user(login: $login) {
-    pullRequests(first: 100, after: $after, orderBy: {field: CREATED_AT, direction: DESC}) {
+    pullRequests(first: 100, after: $after, states: [OPEN], orderBy: {field: CREATED_AT, direction: DESC}) {
       pageInfo { hasNextPage endCursor }
       nodes {
         number title url state isDraft createdAt
@@ -59,7 +59,11 @@ def fetch_pull_requests(login):
         connection = user["pullRequests"]
         for pr in connection["nodes"]:
             repo = pr["repository"]
-            if not repo["isPrivate"] and repo["owner"]["login"].casefold() != login.casefold():
+            if (
+                pr["state"] == "OPEN"
+                and not repo["isPrivate"]
+                and repo["owner"]["login"].casefold() != login.casefold()
+            ):
                 prs[pr["url"]] = pr
         page = connection["pageInfo"]
         if not page["hasNextPage"]:
@@ -78,15 +82,15 @@ def markdown_text(value):
 
 def render_report(login, prs):
     prs = sorted(prs, key=lambda pr: (pr["createdAt"], pr["url"]), reverse=True)
-    counts = {state: sum(pr["state"] == state for pr in prs) for state in ("OPEN", "MERGED", "CLOSED")}
     repos = {pr["repository"]["nameWithOwner"] for pr in prs}
     lines = [
-        "# Pull requests to other repositories",
+        "# Open pull requests to other repositories",
         "",
-        f"Public pull requests authored by [@{login}](https://github.com/{login}) in repositories owned by other accounts.",
+        f"Open public pull requests authored by [@{login}](https://github.com/{login}) in repositories owned by other accounts.",
         "Organization repositories are included even when the author is a member or collaborator.",
+        "Draft PRs are included. PRs are removed when they close or merge.",
         "",
-        f"**{len(prs)} PRs across {len(repos)} repositories** · {counts['OPEN']} open · {counts['MERGED']} merged · {counts['CLOSED']} closed without merging",
+        f"**{len(prs)} open PRs across {len(repos)} repositories**",
         "",
         "Checked every 12 hours by [the update workflow](.github/workflows/update-external-prs.yml). Updated only when the report changes.",
         "",
@@ -95,12 +99,12 @@ def render_report(login, prs):
     ]
     for pr in prs:
         repo = pr["repository"]["nameWithOwner"]
-        state = {"OPEN": "Draft" if pr["isDraft"] else "Open", "MERGED": "Merged", "CLOSED": "Closed"}[pr["state"]]
+        state = "Draft" if pr["isDraft"] else "Open"
         lines.append(
             f"| [{repo}](https://github.com/{repo}) | [#{pr['number']} — {markdown_text(pr['title'])}]({pr['url']}) | {state} | {pr['createdAt'][:10]} |"
         )
     if not prs:
-        lines += ["", "No public pull requests to other accounts' repositories found."]
+        lines += ["", "No open public pull requests to other accounts' repositories found."]
     return "\n".join(lines) + "\n"
 
 
