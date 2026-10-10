@@ -1,0 +1,55 @@
+name: Update external pull request report
+
+on:
+  schedule:
+    - cron: '37 */12 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_external_prs.py
+      - .github/workflows/update-external-prs.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: external-pr-report-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - name: Refresh public PRs using your PAT
+        env:
+          GH_TOKEN: ${{ secrets.PR_REPORT_PAT }}
+          PROFILE_USERNAME: DisabledAbel
+        run: python3 scripts/update_external_prs.py
+      - name: Commit the report when it changes
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git add EXTERNAL_PRS.md
+          if git diff --cached --quiet; then
+            echo "External PR report is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh external pull request report"
+          # Another profile workflow may have pushed while the API was queried.
+          for attempt in 1 2 3; do
+            git fetch origin "$DEFAULT_BRANCH"
+            git rebase "origin/$DEFAULT_BRANCH"
+            if git push origin "HEAD:$DEFAULT_BRANCH"; then
+              exit 0
+            fi
+          done
+          echo "Could not push the report after three attempts."
+          exit 1
