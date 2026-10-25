@@ -1,14 +1,14 @@
 <!-- PROFILE:START -->
 <p align="center">
   <a href="https://github.com/DisabledAbel">
-    <img src="assets/profile-metrics.svg?v=726db6174992d8de" width="980" alt="@DisabledAbel: profile picture, contribution stats, calendar, and languages"/>
+    <img src="assets/profile-metrics.svg?v=3ee59e4029754d6c" width="980" alt="@DisabledAbel: profile picture, contribution stats, calendar, and languages"/>
   </a>
 </p>
 <!-- PROFILE:END -->
 
 <!-- CONTRIBUTION-STATS:START -->
 <p align="center">
-  <a href="https://github.com/DisabledAbel?tab=overview">3,545 contributions · 3,048 commits · 457 pull requests</a><br/>
+  <a href="https://github.com/DisabledAbel?tab=overview">3,552 contributions · 3,055 commits · 457 pull requests</a><br/>
   <sub>Public activity over the past 12 months · Checked every two hours · Updated only when data changes</sub>
 </p>
 <!-- CONTRIBUTION-STATS:END -->
